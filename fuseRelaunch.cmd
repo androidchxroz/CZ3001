@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/CZ3001/part1_without_pipeline_isim_beh.exe" -prj "C:/CZ3001/part1_without_pipeline_beh.prj" "work.part1_without_pipeline" "work.glbl" 

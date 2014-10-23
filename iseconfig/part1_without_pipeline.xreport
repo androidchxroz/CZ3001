@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-10-23T16:32:28</DateModified>
+  <DateModified>2014-10-23T20:42:34</DateModified>
   <ModuleName>part1_without_pipeline</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>//Client/H$/CZ3001/iseconfig/part1_without_pipeline.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>//Client/H$/CZ3001\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/CZ3001/iseconfig/part1_without_pipeline.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/CZ3001\</ImplementationReportsDirectory>
   <DateInitialized>2014-10-23T16:26:57</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

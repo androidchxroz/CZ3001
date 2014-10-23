@@ -1,0 +1,35 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/CZ3001/part1_without_pipeline_isim_beh.exe -prj C:/CZ3001/part1_without_pipeline_beh.prj work.part1_without_pipeline work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/CZ3001/sign_extend.v" into library work
+Analyzing Verilog file "C:/CZ3001/regfile.v" into library work
+Analyzing Verilog file "C:/CZ3001/PC.v" into library work
+Analyzing Verilog file "C:/CZ3001/memory.v" into library work
+Analyzing Verilog file "C:/CZ3001/data_memory.v" into library work
+Analyzing Verilog file "C:/CZ3001/control.v" into library work
+Analyzing Verilog file "C:/CZ3001/alu.v" into library work
+Analyzing Verilog file "C:/CZ3001/adder.v" into library work
+Analyzing Verilog file "C:/CZ3001/part1_without_pipeline.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/CZ3001/part1_without_pipeline.v" Line 61: Size mismatch in connection of port <wdata>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/CZ3001/part1_without_pipeline.v" Line 65: Size mismatch in connection of port <addr>. Formal port size is 4-bit while actual signal size is 16-bit.
+Completed static elaboration
+Compiling module PC1
+Compiling module memory
+Compiling module adder
+Compiling module sign_extend
+Compiling module control
+Compiling module regfile
+Compiling module alu
+Compiling module data_memory
+Compiling module part1_without_pipeline
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable C:/CZ3001/part1_without_pipeline_isim_beh.exe
+Fuse Memory Usage: 30704 KB
+Fuse CPU Usage: 499 ms

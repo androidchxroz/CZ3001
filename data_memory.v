@@ -1,20 +1,20 @@
 `include "define.v"
 
-module data_memory( clk, rst, wen,ren, addr, data_in, data_out);
+module data_memory( clk, rst, wen,ren, addr, write_data, read_data);
 
   input clk;
   input rst;
   input wen,ren;
-  input [ASIZE-1:0] addr;      // address input
-  input [DSIZE-1:0] write_data;          // data input
-  output reg [DSIZE-1:0] read_data;    // data output
-  reg [DSIZE-1:0] memory [0:2**ASIZE-1];
+  input [`ASIZE-1:0] addr;      // address input
+  input [`DSIZE-1:0] write_data;          // data input
+  output reg [`DSIZE-1:0] read_data;    // data output
+  reg [`DSIZE-1:0] memory [0:2**`ASIZE-1];
   reg [8*`MAX_LINE_LENGTH:0] line; /* Line of text read from file */
 
 integer fin, fout,i, c, r;
-reg [ASIZE-1:0] t_addr;
-reg [DSIZE-1:0] t_data;
-reg [ASIZE-1:0] addr_r;
+reg [`ASIZE-1:0] t_addr;
+reg [`DSIZE-1:0] t_data;
+reg [`ASIZE-1:0] addr_r;
 //assign data_out = (ren)? memory[addr_r]:16'b0;
 
   always @(posedge clk)
@@ -22,10 +22,10 @@ reg [ASIZE-1:0] addr_r;
       if(rst)
         begin
           addr_r =0;
-          data_out=16'b0;
+          read_data=16'b0;
           fin=$fopen("dm_test.txt","r");
 
-          for (i = 0; i < 2 ** ASIZE; i = i + 1)
+          for (i = 0; i < 2 ** `ASIZE; i = i + 1)
           begin
              memory[i] = 16'h0000;
           end
@@ -49,12 +49,12 @@ reg [ASIZE-1:0] addr_r;
       else
         begin
           if (ren)
-            data_out =memory[addr];
-            if (wen)
+            read_data =memory[addr];
+            else if (wen)
             begin            // active-low write enable
-              memory[addr] = data_in;
+              memory[addr] = write_data;
               fout = $fopen("outdata.txt","w");
-              $fwrite(fout, "%h %h\n",data_in,addr);
+              $fwrite(fout, "%h %h\n",write_data,addr);
               $fclose(fout);
             end
         end

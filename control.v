@@ -3,13 +3,13 @@
 `include "define.v"
 module control(
   input [3:0] inst, 
-  output wen,
-  output [2:0] aluop,
-  output branch,
-  output mem_to_reg,
-  output mem_write,
-  output ALUSrc,
-  output RegDst
+  output reg wen,
+  output reg [2:0] aluop,
+  output reg branch,
+  output reg mem_to_reg,
+  output reg mem_write,
+  output reg ALUSrc,
+  output reg RegDst
 
   );
   
@@ -67,8 +67,8 @@ module control(
     branch = (inst == `BEQ)? 1'b1 : 1'b0;
     mem_to_reg = (inst == `LW)? 1'b1 : 1'b0;
     mem_write = (inst == `SW)? 1'b1 : 1'b0;
-    alu_src = (inst == `SLL || inst == `SRL)? 1'b1 : 1'b0;
-    reg_dst = (inst == `SW || inst == `BEQ)? 1'b1 : 1'b0;
+    ALUSrc = (inst == `SLL || inst == `SRL)? 1'b1 : 1'b0;
+    RegDst = (inst == `SW || inst == `BEQ)? 1'b1 : 1'b0;
 
   end
   

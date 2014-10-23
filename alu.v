@@ -13,20 +13,20 @@ module alu(
    
    input [`DSIZE-1:0] a, b;
    input [2:0] op;
-   input [`DSIZE-1:0] imm;
-   output [`DSIZE-1:0] out;
-      
+	output reg zero;
+   output reg [`DSIZE-1:0] result;
+	      
 always @(*)
 begin
    case(op)
-       `ADD: out = a + b;
-       `SUB: out = a - b;
-       `AND: out = a & b;
-       `XOR:  out = a ^ b;
-       `SLL: out = a << imm;
-       `SRL: out = a >> imm;
-       `COM: out = a <= b;
-       `MUL: out = a * b;
+       `ADD: result = a + b;
+       `SUB: result = a - b;
+       `AND: result = a & b;
+       `XOR:  result = a ^ b;
+       `SLL: result = a << b;
+       `SRL: result = a >> b;
+       `COM: result = a <= b;
+       `MUL: result = a * b;
    endcase
 
    zero = (a == b)? 1'b1 : 1'b0;
