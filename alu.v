@@ -15,10 +15,6 @@ module alu(
    input [2:0] op;
    input [`DSIZE-1:0] imm;
    output [`DSIZE-1:0] out;
-   output reg 
-   
-
-	reg [`DSIZE-1:0] out; 
       
 always @(*)
 begin

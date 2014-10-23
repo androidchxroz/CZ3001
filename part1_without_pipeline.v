@@ -104,7 +104,7 @@ alu ALU0 ( .a(rdata1), .b(alu_in2), .op(aluop), .result(aluout), .zero(zero));//
  
 // ID_EXE_stage PIPE1(.clk(clk), .rdata1_in(rdata1),.rdata2_in(rdata2),.imm_in(imm_in),.opcode_in(aluop), .waddr_in(INST[11:8]), .waddr_out(waddr_out_ID_EXE), .rdata1_out(rdata1_ID_EXE), .rdata2_out(rdata2_ID_EXE), .imm_out(imm_ID_EXE), .opcode_out(aluop_ID_EXE));//immediate value is given as 0 as we are concentrating only on R-type instuctions
 
-data_meory DM (.clk(clk), .rst(rst), .wen(mem_write), .ren(mem_to_reg), addr(aluout), data_in(wdata_mem), data_out(rdata_mem));
+data_memory DM (.clk(clk), .rst(rst), .wen(mem_write), .ren(mem_to_reg), addr(aluout), data_in(wdata_mem), data_out(rdata_mem));
 
 endmodule
 

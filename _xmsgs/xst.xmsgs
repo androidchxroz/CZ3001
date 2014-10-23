@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 21: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 21: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 22: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 22: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 25: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 25: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 26: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 26: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 29: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 29: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 30: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 30: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 33: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 33: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 34: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 34: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 37: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 37: Procedural assignment to a non-register <arg fmt="%s" index="1">wen</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="new" >"\\Client\H$\CZ3001\control.v" Line 38: Procedural assignment to a non-register <arg fmt="%s" index="1">aluop</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+</messages>
+

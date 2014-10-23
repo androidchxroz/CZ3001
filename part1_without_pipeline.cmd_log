@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "//Client/H$/CZ3001/part1_without_pipeline.xst" -ofn "//Client/H$/CZ3001/part1_without_pipeline.syr" 
