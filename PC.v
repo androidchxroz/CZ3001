@@ -6,7 +6,7 @@ module PC1(
 		rst,       
 		nextPC,		 
 		currPC);
-		
+		 
 		input clk,rst;		 
 		input [`ISIZE - 1:0]nextPC;		 //instruction address is 16 bit as it can address more memory locations
 		output reg [`ISIZE - 1:0]currPC;
