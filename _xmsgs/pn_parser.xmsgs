@@ -8,5 +8,89 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/EXE_WB_stage.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/EXE_WB_stage.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/EXE_WB_stage.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/ID_EXEstage.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/ID_EXEstage.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/ID_EXEstage.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/PC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/PC.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/PC.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/alu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/alu.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/alu.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/control.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/control.v</arg>&quot; Line <arg fmt="%d" index="2">3</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/control.v&quot; line 3
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/data_memory.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/data_memory.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/data_memory.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/memory.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/memory.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/memory.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/part1_without_pipeline.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/part1_without_pipeline.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/part1_without_pipeline.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/pipelined_2_stage.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/pipelined_2_stage.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/pipelined_2_stage.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/pipelined_regfile_3stage.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/pipelined_regfile_3stage.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/pipelined_regfile_3stage.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/regfile.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/regfile.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/regfile.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/sign_extend.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/sign_extend.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Admin/Desktop/CZ3001-master/CZ3001-master/define.v&apos; in file &quot;D:/NTU/CZ3001 Advanced Computer Architecture/Project/CZ3001/sign_extend.v&quot; line 1
+</arg>
+</msg>
+
 </messages>
 
